@@ -16,6 +16,11 @@
     
 }
 
+.footer {
+    text-align: center;
+    background-color: #E81C6F;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 @media (min-width: 320px) {
@@ -138,5 +143,16 @@
         cursor: pointer;
         
         
+    }
+
+    .footer {
+        text-align: center;
+        background-color: #E81C6F;
+
+        img {
+            width: 112px;
+            height: 112px;
+            margin: 32px 0;
+        }
     }
 }
