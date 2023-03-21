@@ -190,5 +190,59 @@ h1, h2, h3, h4, h5, h6 {
     margin: 32px 0;
   }
 }
+@media (min-width: 1200px) {
+  .logo {
+    height: 672px;
+    width: 100vw;
+    text-align: center;
+    background-image: url(../img/desktop-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .logo img {
+    margin: 16px 0 0 0;
+    height: 384px;
+    width: 350px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: max-content;
+    padding: 0 15px;
+    background-color: #E81C6F;
+  }
+  main img {
+    width: 100%;
+  }
+  .menu {
+    margin: -100px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .menu img {
+    width: 48.5436893204%;
+  }
+  .up-arr {
+    height: 96px;
+    width: 96px;
+    position: fixed;
+    bottom: 32px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .footer {
+    text-align: center;
+    background-color: #E81C6F;
+  }
+  .footer img {
+    width: 112px;
+    height: 112px;
+    margin: 32px 0;
+  }
+}
 
 /*# sourceMappingURL=bora-bora.css.map */
