@@ -1,0 +1,142 @@
+@import "cfg.scss";
+
+.container {
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.up-arr {
+    height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 16px;
+    right: 15px;
+    cursor: pointer;
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@media (min-width: 320px) {
+    .logo {
+        height: 288px;
+        width: 100vw;
+        text-align: center;
+        background-image: url(../img/modile-bg.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+
+        img {
+            margin: 16px 0 0 0 ;
+            height: 96px;
+            width: 88px;
+        }
+    }
+
+    main {
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        height: max-content;
+        padding: 0 15px;
+        background-color: #E81C6F;
+
+        h1 {
+            font-family: "Roboto";
+            font-weight: 700;
+            color: #fff;
+            font-size: 32px;
+            margin: 0 0 16px 0;
+          }
+
+        img {
+            width: 100%;
+        }
+
+          
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        
+        
+        
+    }
+    
+    .up-arr {
+        height: 48px;
+        width: 48px;
+        position: fixed;
+        bottom: 16px;
+        right: 15px;
+        cursor: pointer;
+        
+        
+    }
+}
+
+@media (min-width: 744px) {
+    .logo {
+        height: 576px;
+        width: 100vw;
+        text-align: center;
+        background-image: url(../img/tab-bg.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+
+        img {
+            margin: 16px 0 0 0 ;
+            height: 224px;
+            width: 204px;
+        }
+    }
+
+    main {
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: max-content;
+        padding: 0 15px;
+        background-color: #E81C6F;
+
+        h1 {
+            font-family: "Roboto";
+            font-weight: 700;
+            color: #fff;
+            font-size: 64px;
+            margin: 0 0 16px 0;
+          }
+
+        img {
+            width: 100%;
+        }
+
+          
+    }
+
+    .menu {
+        margin: -200px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        
+    }
+
+    .up-arr {
+        height: 96px;
+        width: 96px;
+        position: fixed;
+        bottom: 32px;
+        right: 15px;
+        cursor: pointer;
+        
+        
+    }
+}
