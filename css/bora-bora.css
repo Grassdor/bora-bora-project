@@ -103,7 +103,6 @@ h1, h2, h3, h4, h5, h6 {
   .logo img {
     margin: 16px 0 0 0;
     height: 96px;
-    width: 88px;
   }
   main {
     display: flex;
@@ -136,7 +135,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #E81C6F;
   }
   .footer img {
-    width: 112px;
     height: 112px;
     margin: 32px 0;
   }
@@ -153,7 +151,6 @@ h1, h2, h3, h4, h5, h6 {
   .logo img {
     margin: 16px 0 0 0;
     height: 224px;
-    width: 204px;
   }
   main {
     display: flex;
@@ -185,7 +182,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #E81C6F;
   }
   .footer img {
-    width: 112px;
     height: 112px;
     margin: 32px 0;
   }
@@ -202,7 +198,6 @@ h1, h2, h3, h4, h5, h6 {
   .logo img {
     margin: 16px 0 0 0;
     height: 384px;
-    width: 350px;
   }
   main {
     display: flex;
@@ -239,9 +234,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #E81C6F;
   }
   .footer img {
-    width: 112px;
     height: 112px;
-    margin: 32px 0;
+    margin: 64px 0;
   }
 }
 
