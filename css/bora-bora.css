@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: auto;
   }
   .logo img {
-    max-width: 63px;
+    max-width: 75px;
   }
   .turtles {
     position: relative;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .img-turtle {
     position: relative;
-    top: -80px;
+    top: -98px;
     justify-self: center;
     z-index: 2;
   }
