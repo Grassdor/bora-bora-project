@@ -33,6 +33,7 @@ function chgImg(number) {
 if (number!=0) n = number - 2;
  $('#logo').fadeOut(time, function() {
   $(this).attr('src', imgs[n]).fadeIn(time);
+  setTimeout(10)
  });
 
 

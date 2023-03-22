@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .img-turtle {
     position: relative;
-    top: -79px;
+    top: -79.5px;
     justify-self: center;
     z-index: 2;
   }
