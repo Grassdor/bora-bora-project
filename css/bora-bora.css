@@ -95,14 +95,26 @@ h1, h2, h3, h4, h5, h6 {
   .logo {
     height: 288px;
     width: 100vw;
-    text-align: center;
     background-image: url(../img/modile-bg.png);
     background-repeat: no-repeat;
     background-size: auto;
   }
   .logo img {
-    margin: 16px 0 0 0;
-    height: 96px;
+    max-width: 63px;
+  }
+  .turtles {
+    position: relative;
+    text-align: center;
+  }
+  .img-turtle {
+    position: relative;
+    top: -79px;
+    justify-self: center;
+    z-index: 2;
+  }
+  .blank-turtle {
+    position: relative;
+    top: 16px;
   }
   main {
     display: flex;
@@ -150,7 +162,17 @@ h1, h2, h3, h4, h5, h6 {
   }
   .logo img {
     margin: 16px 0 0 0;
-    height: 224px;
+    max-width: 147px;
+  }
+  .img-turtle {
+    position: relative;
+    top: -224px;
+    justify-self: center;
+    z-index: 2;
+  }
+  .blank-turtle {
+    position: relative;
+    top: 16px;
   }
   main {
     display: flex;
@@ -197,7 +219,17 @@ h1, h2, h3, h4, h5, h6 {
   }
   .logo img {
     margin: 16px 0 0 0;
-    height: 384px;
+    max-width: 253px;
+  }
+  .img-turtle {
+    position: relative;
+    top: -385px;
+    justify-self: center;
+    z-index: 2;
+  }
+  .blank-turtle {
+    position: relative;
+    top: 16px;
   }
   main {
     display: flex;

@@ -21,22 +21,44 @@
     background-color: #E81C6F;
 }
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 @media (min-width: 320px) {
     .logo {
         height: 288px;
         width: 100vw;
-        text-align: center;
         background-image: url(../img/modile-bg.png);
         background-repeat: no-repeat;
         background-size: auto;
-
+        
+        
         img {
-            margin: 16px 0 0 0 ;
-            height: 96px;
-            
+            max-width: 63px;
         }
+        
+    }
+    .turtles {
+        position: relative;
+        text-align: center;
+        
+    }
+
+    .img-turtle {
+        position: relative;
+        top: -79px;
+        justify-self: center;
+        z-index: 2;
+        
+        
+        
+    }
+
+    .blank-turtle {
+        position: relative;
+        top: 16px;
+        
     }
 
     main {
@@ -103,10 +125,25 @@
 
         img {
             margin: 16px 0 0 0 ;
-            height: 224px;
+            max-width: 147px;
             
         }
     }
+
+    .img-turtle {
+        position: relative;
+        top: -224px;
+        justify-self: center;
+        z-index: 2; 
+    }
+
+    .blank-turtle {
+        
+        position: relative;
+        top: 16px;
+        
+    }
+
 
     main {
         
@@ -168,9 +205,23 @@
 
         img {
             margin: 16px 0 0 0 ;
-            height: 384px;
+            max-width: 253px;
             
         }
+    }
+
+    .img-turtle {
+        position: relative;
+        top: -385px;
+        justify-self: center;
+        z-index: 2; 
+    }
+
+    .blank-turtle {
+        
+        position: relative;
+        top: 16px;
+        
     }
 
     main {
