@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .img-turtle {
     position: relative;
-    top: -79.5px;
+    top: -80px;
     justify-self: center;
     z-index: 2;
   }
@@ -145,10 +145,14 @@ h1, h2, h3, h4, h5, h6 {
   .footer {
     text-align: center;
     background-color: #E81C6F;
+    padding: 32px 0;
   }
   .footer img {
-    height: 112px;
-    margin: 32px 0;
+    height: 64px;
+  }
+  .footer p {
+    font-family: Roboto;
+    margin: 0 0 5px 0;
   }
 }
 @media (min-width: 744px) {
