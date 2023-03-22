@@ -209,7 +209,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .footer img {
     height: 112px;
-    margin: 32px 0;
   }
 }
 @media (min-width: 1200px) {
@@ -268,10 +267,10 @@ h1, h2, h3, h4, h5, h6 {
   .footer {
     text-align: center;
     background-color: #E81C6F;
+    padding: 48px 0;
   }
   .footer img {
     height: 112px;
-    margin: 64px 0;
   }
 }
 
