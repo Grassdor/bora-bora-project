@@ -32,8 +32,9 @@ play = setInterval("chgImg(0)", 5000);
 function chgImg(number) {
 if (number!=0) n = number - 2;
  $('#logo').fadeOut(time, function() {
+    setTimeout(10)
   $(this).attr('src', imgs[n]).fadeIn(time);
-  setTimeout(10)
+  
  });
 
 
