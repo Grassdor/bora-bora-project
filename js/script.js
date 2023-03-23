@@ -23,7 +23,7 @@ $('body,html').animate({scrollTop:0},800);
  
 });
 
-let imgs = ["../bora-bora-project/img/disc1-turtle.png", "../bora-bora-project/img/disc2-turtle.png", "../bora-bora-project/img/needles-turtle.png","../bora-bora-project/img/earth-turtle.png", "../bora-bora-project/img/burger-turtle.png", "../bora-bora-project/img/yoga-turtle.png", "../bora-bora-project/img/note-turtle.png", "../bora-bora-project/img/panda-turtle.png", "../bora-bora-project/img/anchor-turtle.png", "../bora-bora-project/img/glasses-turtle.png", "../bora-bora-project/img/sun-turtle.png", "../bora-bora-project/img/card-turtle.png", "../bora-bora-project/img/chief-turtle.png"];
+let imgs = ["img/disc1-turtle.png", "img/disc2-turtle.png", "img/needles-turtle.png","img/earth-turtle.png", "img/burger-turtle.png", "img/yoga-turtle.png", "img/note-turtle.png", "img/panda-turtle.png", "img/anchor-turtle.png", "img/glasses-turtle.png", "img/sun-turtle.png", "img/card-turtle.png", "img/chief-turtle.png"];
 
 let n = 0;
 time = 800;

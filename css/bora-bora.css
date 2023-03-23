@@ -112,6 +112,16 @@ h1, h2, h3, h4, h5, h6 {
     justify-self: center;
     z-index: 2;
   }
+  .turtle-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e0e00;
+    position: relative;
+    top: -60px;
+    justify-self: center;
+    z-index: 2;
+  }
   .blank-turtle {
     position: relative;
     top: 16px;
@@ -174,6 +184,15 @@ h1, h2, h3, h4, h5, h6 {
     justify-self: center;
     z-index: 2;
   }
+  .turtle-text {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    top: -180px;
+    justify-self: center;
+    z-index: 2;
+  }
   .blank-turtle {
     position: relative;
     top: 16px;
@@ -227,6 +246,15 @@ h1, h2, h3, h4, h5, h6 {
   .img-turtle {
     position: relative;
     top: -385px;
+    justify-self: center;
+    z-index: 2;
+  }
+  .turtle-text {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    top: -340px;
     justify-self: center;
     z-index: 2;
   }

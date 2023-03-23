@@ -46,13 +46,22 @@
     }
 
     .img-turtle {
+        
         position: relative;
         top: -98px;
         justify-self: center;
-        z-index: 2;
-        
-        
-        
+        z-index: 2; 
+    }
+
+    .turtle-text {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        color: #1e0e00;
+        position: relative;
+        top: -60px;
+        justify-self: center;
+        z-index: 2; 
     }
 
     .blank-turtle {
@@ -143,6 +152,16 @@
         z-index: 2; 
     }
 
+    .turtle-text {
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 700;
+        position: relative;
+        top: -180px;
+        justify-self: center;
+        z-index: 2; 
+    }
+
     .blank-turtle {
         
         position: relative;
@@ -219,6 +238,16 @@
     .img-turtle {
         position: relative;
         top: -385px;
+        justify-self: center;
+        z-index: 2; 
+    }
+
+    .turtle-text {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        position: relative;
+        top: -340px;
         justify-self: center;
         z-index: 2; 
     }
